@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title> MidwayUSA.com | Production Suggestion Form </title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="https://media.mwstatic.com/images/pagespecific/favicons/favicon-196x196.png" sizes="196x196">
+    <link rel="icon" type="image/png" href="https://media.mwstatic.com/images/pagespecific/favicons/favicon-160x160.png" sizes="160x160">
+    <link rel="icon" type="image/png" href="https://media.mwstatic.com/images/pagespecific/favicons/favicon-96x96.png">
+
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+  <div class="top-header">
+    <img src="img/midwayusa-logo.svg"></img>
+    <div><a class="toggle" href="#suggestionform">Product Suggestion Form</a></div>
+  </div>
+  <div class="container toggle-content" id="suggestionform">
+    <form action="">
+      <label for="name"> Name </label>
+      <input type="text" id="name" name="name" placeholder="Your name.." required>
+
+      <label for="email"> Email Address </label>
+      <input type="text" id="email" name="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email Address.." required>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" placeholder="Description of product desired.." required></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <!-- Javascript -->
+  <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
